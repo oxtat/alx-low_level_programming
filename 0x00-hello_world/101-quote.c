@@ -1,10 +1,20 @@
-#include <stdio.h>
-#include <unistd.h>
 
 /*
- *  main - Prints out the last part of a quote in the standard error.
- *  return (1) if success.
+ * File: 101-quote.c
+ * Auth: Brian Wagura <wagura.dev@gmail.com>
  */
+
+#include <unistd.h>
+
+/**
+ * main - Prints "and that piece of art is useful" - Dora Korpar, 2015-10-19",
+ *                followed by a new line, to standard error.
+ *
+ * Return: Always 1.
+ */
+
+
+
 
 int main(void)
 {
