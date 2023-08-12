@@ -17,11 +17,11 @@ int main(void)
 		putchar(c);
 		c++;
 	}
-	c = 'a'
+	c = 'a';
 	while (c <= 'f')
 	{
 		putchar(c);
-		c++
+		c++;
 	}
 	putchar('\n');
 	return (0);
