@@ -10,13 +10,15 @@
 
 int _isalpha(int c)
 {
-	for (alpha = "a"; alpha <= "z", alpha++)
+	int alpha;
+
+	for (alpha = 'a'; alpha <= 'z', alpha++)
 	{
 		if (c == alpha)
 			return (1);
 	}
 
-	for (alpha = "A"; alpha <= "Z"; alpha++)
+	for (alpha = 'A'; alpha <= 'Z'; alpha++)
 	{
 		if (c == alpha)
 			return (1);
