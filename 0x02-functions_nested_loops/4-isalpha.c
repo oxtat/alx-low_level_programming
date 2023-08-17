@@ -12,7 +12,7 @@ int _isalpha(int c)
 {
 	int alpha;
 
-	for (alpha = 'a'; alpha <= 'z', alpha++)
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
 		if (c == alpha)
 			return (1);
